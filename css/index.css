@@ -1,0 +1,156 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    box-sizing: border-box;
+    border-inline-style: solid;
+    border-inline-width: 50px;
+    margin: 0;
+    background-color: #E6E6FA;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: auto;
+    padding-top: 30px;
+}
+
+.logo {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 0.5;
+}
+
+.logo-name {
+    position: relative;
+    left: 110px;
+    top: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+.logo-image p {
+    position: relative;
+    bottom: 42px;
+    left: 40px;
+    font-size: xx-small;
+    color: green;
+}
+
+.logo-head {
+    position: relative;
+    top: 20px;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    height: 40px;
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search:hover {
+    background-color: #FFE5B4;
+}
+
+.links img:hover {
+    background-color: rgb(118, 70, 200);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0 25px;
+    font-weight: bold;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.home-bg {
+    background-image: url(/image/home-bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.container {
+    padding: 20%;
+}
+
+.container button a {
+    text-decoration: none;
+    color: black;
+}
+
+.container button {
+    background-color: rgb(255, 153, 0);
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    margin-left: 35%;
+}
+
+.container button:hover {
+    background-color: rgb(222, 221, 176);
+}
+
+.container-1 {
+    padding: 10%;
+}
+
+.container-2 {
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+.cards img {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.cards p {
+    font-size: 1.5rem;
+}
+
+@media (max-width:950px) {
+    body {
+        border-inline-style: none;
+        border-inline-width: none;
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        border-inline-style: none;
+        border-inline-width: none;
+    }
+}
