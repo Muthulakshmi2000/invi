@@ -88,7 +88,7 @@ header {
 }
 
 .home-bg {
-    background-image: url(image/home-bg.avif);
+    background-image: url(\image/home-bg.avif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
